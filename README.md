@@ -71,8 +71,17 @@ the one-line entry point.
 ## Quick start
 
 ```bash
+# Clone the repository
+gitclone
+
+# Create and activate a virtual environment
+python -m venv .venv
+source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
+
+# Install the required dependencies
 pip install -r requirements.txt        # numpy scipy pandas matplotlib seaborn deap
 
+# Run the optimization script
 python main.py                         # optimise mare + highland, write figures
 python main.py --regolith mare         # one composition only
 python main.py --generations 60 --seed 7
