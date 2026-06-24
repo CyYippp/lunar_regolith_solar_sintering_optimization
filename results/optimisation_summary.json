@@ -1,0 +1,48 @@
+{
+  "mare": {
+    "regolith": "mare",
+    "best_fitness": 0.9163,
+    "recommended": {
+      "T_degC": 1070.6,
+      "t_min": 60.0,
+      "SF": 1.0,
+      "ucs_MPa": 11.85,
+      "thermal_stress_MPa": 8.45,
+      "phase_fraction": 0.205,
+      "energy_efficiency": 0.0871,
+      "meets_targets": true
+    },
+    "feasible_fraction": 0.0275,
+    "n_pareto": 84,
+    "n_evaluations": 2207,
+    "cache_hits": 2515,
+    "processor_utilisation": 0.031,
+    "targets": {
+      "ucs_min_MPa": 10.0,
+      "ts_max_MPa": 10.0
+    }
+  },
+  "highland": {
+    "regolith": "highland",
+    "best_fitness": 0.8737,
+    "recommended": {
+      "T_degC": 1122.9,
+      "t_min": 47.9,
+      "SF": 1.42,
+      "ucs_MPa": 10.3,
+      "thermal_stress_MPa": 10.88,
+      "phase_fraction": 0.185,
+      "energy_efficiency": 0.0666,
+      "meets_targets": false
+    },
+    "feasible_fraction": 0.0,
+    "n_pareto": 76,
+    "n_evaluations": 5793,
+    "cache_hits": 6509,
+    "processor_utilisation": 0.031,
+    "targets": {
+      "ucs_min_MPa": 10.0,
+      "ts_max_MPa": 10.0
+    }
+  }
+}
