@@ -72,7 +72,8 @@ the one-line entry point.
 
 ```bash
 # Clone the repository
-gitclone
+git clone [https://github.com/CyYippp/lunar_regolith_solar_sintering_optimization.git]
+cd lunar_regolith_solar_sintering_optimization
 
 # Create and activate a virtual environment
 python -m venv .venv
